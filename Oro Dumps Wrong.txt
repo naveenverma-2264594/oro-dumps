@@ -1,0 +1,268 @@
+Your business requires tracing the lifecycle of all RFQs, marking them as processed, submitted, or the ones that require attention. Which of the following workflows would you enable to satisfy the request?0 / 1 points
+Enabling RFQ Management Flow is enough to monitor all the required steps from the back-office.
+
+OroCommerce supports consent management. To display the text of the consent to customers in the storefront, you need to create a consent landing page with the corresponding description and add it as a content variant to a specific node in a web catalog. When is this a requirement?0 / 1 points
+Always. You cannot add any type of consent to the storefront without connecting them to a web catalog node first.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/concept-guides/web-catalog/#web-catalogs-and-gdpr-consents
+
+Which functionality do you enable by setting the Backorders inventory option to Yes? 0 / 1 points
+With the Backorders inventory option enabled, the products that are currently out of stock cannot be ordered, but you can create a draft of the order, and the system will notify you as soon as the products get back in stock.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/system/configuration/commerce/inventory/product-options/#configuration-guide-commerce-configuration-inventory-product-options
+
+Which statement is correct?0 / 1 points
+Any workflow (checkout, quote, rfq) can be selectively activated for the required website.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/concept-guides/websites/
+
+Which settings need to be enabled in the back-office for guest users to be able to send RFQs from the storefront? 0 / 1 points
+Enabling Guest RFQ settings is enough to send an RFQ from the storefront.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/master/user/back-office/system/configuration/commerce/sales/rfq/#guest-rfq
+
+What are the steps for creating a configurable product?0 / 1 points
+First, you need to create a simple product and a configurable product next.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/master/user/back-office/products/products/create-complex/#checklist
+
+You want to show a certain payment method only to customers with a billing address in the US and for orders over $1000. Which payment rule expression should you use?0 / 1 points
+subtotal.value > 1000 and subtotal.currency === 'USD' and billingAddress.countryIso2 === 'US'
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/system/shipping-rules/expression-lang/
+
+What is the outcome of setting up a mutually exclusive workflow?0 / 1 points
+Setting up mutually exclusive workflows enables creating groups of workflows that can be executed simultaneously by one entity.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/master/user/back-office/system/workflows/#general-section
+
+How many discount types does OroCommerce offer? What are they?0 / 1 points
+There are four promotion options to suit the needs of any business. These are promotions for orders, line items, checkout, and Buy X Get Y.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/marketing/promotions/promotions/create/
+
+What is a geographical address that follows the same tax laws and regulations and requires a certain set of tax rules in OroCommerce?0 / 1 points
+A country tax code
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/taxes/tax-jurisdictions/
+
+The ability to view and manage some activities depends on specific roles and permissions defined in the system. What are these activities?0 / 1 points
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/activities/
+
+How many websites can you create in OroCommerce?0 / 1 points
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/system/websites/
+
+Out-of-the-box, field-level permissions can be applied only to specific entities. What are these entities?0 / 1 points
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/system/user-management/roles/field-level-acl/#user-guide-user-management-permissions-roles-field-level-acl
+
+Will the guest users be able to browse the US website if the website access is disabled for the Non-Authenticated Visitors customer group, enabled for the US website, and disabled on the system level. 0 / 1 points
+Guest customers’ activities are not allowed within the US website based on the system-level settings which are the highest level settings and are always prioritized first.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/system/configuration/
+
+How many schedules can you add to a single promotion?0 / 1 points
+You can add only one schedule per promotion. To add another schedule, you need to clone the promotion first.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/marketing/promotions/promotions/create/#user-guide-marketing-promotions-create
+
+When do system reports start collecting the data for statistics?0 / 1 points
+Once you enable the related system report in the system configuration.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/reports-segments/reports/system-reports/
+
+Starting from version 6.1, where do administrators configure the storefront behavior (e.g., layout, menu display options, button colors)?0 / 1 points
+System > Configuration > Commerce > Design > Theme.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/system/theme-configuration/#back-office-theme-configuration
+
+ 
+
+Select all available access levels for storefront roles: 0 / 1 points
+None, User, Business Unit, Division, Organization, Global.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/storefront/account/roles/
+
+Which statement is incorrect regarding the order management?0 / 1 points
+It is possible to close the order that has already been canceled.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/sales/orders/control/
+
+Which of the following actions can be performed using both AI Smart Agent and AI Smart Order? Multiple answers required.0 / 1 points
+Creating a draft order. 
+Checking order status.
+Reducing manual data entry effort.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/concept-guides/ai/
+
+You have enabled two languages for the US website, English and Spanish. How would you provide Spanish translation to English-localized landing pages? 0 / 1 points
+Click the Translations icon next to the title and content of the required landing page. Provide the translation for the Spanish language. When Spanish is selected in the storefront, the Spanish content is displayed.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/marketing/web-catalogs/customize-web-catalog/
+
+What features are unavailable for guest users in OroCommerce? More than one answer is required:0 / 1 points
+Proceed to the checkout
+View their placed orders
+View the items that were purchased previously
+View submitted RFQs
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/master/user/concept-guides/guests/
+
+When can a buyer track their order? More than one answer is required:0 / 1 points
+When tracking orders feature is enabled in the system configuration.
+After a salesperson adds the shipping service and their tracking number to the order (if this option is provided by the shipping company). 
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/sales/orders/track-order/
+
+Which statement is correct?0 / 1 points
+Any workflow (checkout, quote, rfq) can be selectively activated for the required website.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/concept-guides/websites/
+
+Can you apply payment rules to websites in OroCommerce out-of-the-box?0 / 1 points
+Application of payment rules to websites is available out-of-the-box for Community customers.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/system/payment-rules/#filter-a-payment-rule-list
+
+A buyer can be asked to accept consents in the storefront when:0 / 1 points
+Registering, editing their profile, creating a quick order.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/storefront/account/my-profile/#accept-a-consent
+
+ 
+
+What are the things to consider after creating a website in OroCommerce? 0 / 1 points
+Decide on whether to configure the website as B2B or B2C. 
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/system/websites/create/
+
+What are the things to consider after creating a website in OroCommerce? 0 / 1 points
+Decide on whether to configure the website as B2B or B2C. 
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/system/websites/create/
+
+Select the actions that correspond to activities supported by the Oro application. More than one answer is required:
+0 / 1 points
+Create tasks and cases
+Log calls, send emails
+Manage contact requests and entity records
+Import and export records
+Add comments and attachments
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/activities/
+
+If a customer is qualified for multiple tax rules with different rates, which tax rate will be applied to their order at checkout?0 / 1 points
+The rate from the tax rule of the higher priority.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/taxes/tax-rules/#tax-rules
+
+
+What types of storefront role permissions are available in OroCommerce? More than one answer is required:0 / 1 points
+System capabilities
+Catalog-level permissions
+Entity-level permissions
+Field-level permissions 
+Workflow permissions
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/system/user-management/roles/#roles-and-permissions
+
+What is order automation?0 / 1 points
+Order automation enables the system to process orders automatically without your intervention.
+Clarification:
+
+To find answers to the question, refer to the Oro online documentation:
+
+https://doc.oroinc.com/user/back-office/system/configuration/commerce/orders/global-order-automation/#configuration-commerce-orders
+

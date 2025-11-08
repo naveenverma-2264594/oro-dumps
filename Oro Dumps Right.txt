@@ -1,0 +1,277 @@
+What do you configure under the Taxonomy menu in the Oro application?1 / 1 points
+In the Taxonomy section, you can create a unique code for your tags, either colored or plain, to make them stand out from other tags. If a tag is assigned a colored taxonomy (e.g., red), all entities with this tag get flagged with red.
+
+2
+What types of back-office role permissions are available in OroCommerce? More than one answer is required:1 / 1 points
+System capabilities
+Entity-level permissions
+Field-level permissions
+Workflow permissions
+
+Can you delete a role if it is assigned to a user? If so, how?1 / 1 points
+You cannot delete a role if it is assigned to an existing user, unless you reassign this user to a different role first.
+
+What is the difference between a simple and a configurable product?1 / 1 points
+Simple products are items with basic, unchangeable attributes, while configurable products come in different variations, such as color or model. To create a configurable product, you require simple products for each variant necessary for the configurable product.
+
+You can configure guest access:1 / 1 points
+Globally, per organization, and per website
+
+You have enabled two languages for the US website, English and Spanish. How would you provide Spanish translation to English-localized landing pages? 1 / 1 points
+Create another landing page with the same content translated to Spanish. Add this page as a content variant to a web catalog content node next to the English-specific landing page. Restrict the landing page to the Spanish localization to display the Spanish content when switching the language in the storefront.
+
+Which statement about menus configuration is incorrect?1 / 1 points
+The back-office menus configuration and customization is available in the Enterprise edition only.
+
+Which statement is not true?1 / 1 points
+The Stop Further Rule Processing checkbox is used to prevent applying other shipping rules with higher priority.
+
+What or who do customer users represent in OroCommerce? 1 / 1 points
+Users of OroCommerce storefront who act on behalf of the company
+
+Can a user personalize back-office menus for themselves?1 / 1 points
+Yes, but the Manage Menus capability must first be included into the user role configuration settings.
+
+What does the None access level mean?1 / 1 points
+User with this role cannot perform the selected action.
+
+Which statement regarding RFQs is incorrect?1 / 1 points
+RFQ functionality is available in Enterprise Edition only.
+
+Can you amend system reports?1 / 1 points
+No. System reports are read-only.
+
+How would you configure a promotion for a specific customer group?1 / 1 points
+Set restrictions when creating or editing a promotion to make it available for that specific customer group.
+
+If the product is configured to be visible, but the category is hidden, will the product be visible in the storefront? 1 / 1 points
+Yes. The product visibility has priority over the category visibility.
+
+If a product is available in both master catalog and web catalog, does it have the same URL address?1 / 1 points
+A link to the same product can have two different URL addresses, depending on whether a master catalog or a web catalog category has been connected to a storefront page.
+
+How do steps and transitions work together to make up the workflow?1 / 1 points
+ step is a stop in the workflow defining the current step of the record (e.g., Open, Processed, Resolved). A transition connects the steps moving the record from one step to another (e.g., Mark as Processed, Resolve, Re-Open). 
+
+How many warehouses can you add to the Orocommerce application?1 / 1 points
+Community Edition enables you to create only one warehouse, while Enterprise Edition allows sellers to add an unlimited number of warehouses.
+
+What steps should be taken to ensure that consents are displayed in the storefront and that a buyer can easily accept them?1 / 1 points
+Add them to the list of enabled consents in the system configuration, create a consent landing page, and add it as a content variant for a specific node in a web catalog.
+
+Customer A is not assigned any customer tax code. Does it mean that all customer users who belong to Customer A are exempt from paying taxes when placing orders?1 / 1 points
+Yes, unless another tax code is set for the related customer group.
+
+Which of the following statements is false? There is only one correct answer.1 / 1 points
+Unlike the web catalog, one organization can have multiple master catalogs.
+
+When do system reports start collecting the data for statistics?1 / 1 points
+There is no need to enable system reports as they are always active by default.
+
+What are the steps to configure shipping in OroCommerce?1 / 1 points
+Configure shipping options in the system configuration, create a shipping integration, and add a shipping rule.
+
+Can you apply coupons to all promotions? 1 / 1 points
+You can apply coupons to those promotions that you specifically configured to be triggered by coupons, or coupons and conditions.
+
+Which statement about tasks is false?1 / 1 points
+You can edit a task status only if the task flow is enabled for your Oro application
+
+What can you achieve by applying restrictions to a web catalog?1 / 1 points
+By applying restrictions, you can define who you want to show this catalog to and where. If there are no restrictions specified for a particular web catalog, anyone can view its contents in the storefront from any location.
+
+What is a geographical address that follows the same tax laws and regulations and requires a certain set of tax rules in OroCommerce?1 / 1 points
+A tax jurisdiction
+
+Can multiple promotions apply to one order? More than one answer is required:1 / 1 points
+Yes, but this is subject to the sort number assigned to the promotions, and whether any of them have Stop Further Rule Processing enabled.
+Yes but this depends on the discount strategy selected in the system configuration.
+
+How do you configure payment in the back-office so that customers in the storefront could pay for their orders?1 / 1 points
+First, select your merchant location in the system configuration. Next, create a payment terms integration. Once the integration is created and enabled, add and activate a payment rule (or several rules) to determine which payment method buyers should see and use in the storefront.
+
+Which statement is not true?1 / 1 points
+The Stop Further Rule Processing checkbox is used to prevent applying other shipping rules with higher priority.
+
+What types of back-office role permissions are available in OroCommerce? More than one answer is required:1 / 1 points
+System capabilities
+Entity-level permissions
+Field-level permissions
+Workflow permissions
+
+A buyer can be asked to accept consents in the storefront when:1 / 1 points
+Registering, editing their profile, requesting a quote, and creating an order. 
+
+When do you need to provide third-party credentials to configure a shipping integration?1 / 1 points
+When configuring FedEx integration
+
+If 1 item of product A is $70, 50 items = $60, 100 items = $40, what price tier do 47 items of this product fall under?1 / 1 points
+1 item = $70
+
+Which currency type is usually used to calculate the business’s turnover and display financial statistics (budgets, sales amounts, etc.) in the back-office?1 / 1 points
+A base currency.
+
+How many warehouses can you add to the Orocommerce application?1 / 1 points
+Community Edition enables you to create only one warehouse, while Enterprise Edition allows sellers to add an unlimited number of warehouses
+
+Is it possible to add multiple workflows to a single entity, keeping them all simultaneously active?1 / 1 points
+You can add an unlimited number of workflows to one entity and run them all in parallel unless mutually exclusive workflows are set up.
+
+What is a product family?1 / 1 points
+A product family is a collection of product attributes to allow for displaying relevant information, filtering, and sorting products of a similar type.
+
+Would you be able to create a Clearance sale page for all products with inventory lower than 10 items via the master catalog?1 / 1 points
+No. But you achieve it with a web catalog as it enables you to add a filter-based segment and display a dynamic set of products on the website.
+
+What is the purpose of “mandatory consents” in OroCommerce?1 / 1 points
+To restrict buyers from proceeding to the checkout or creating RFQs unless they accept the consent. 
+
+You want to show a certain payment method only to customers with a billing address in the US and for orders over $1000. Which payment rule expression should you use?1 / 1 points
+subtotal.value > 1000 and subtotal.currency = 'USD' and billingAddress.countryIso2 = 'US'
+
+Non-authenticated customer users can request a quote for the products they are interested in. However, unlike registered buyers, they do not have a fully-featured account in the OroCommerce storefront, and cannot view the reply to their RFQ. What is the alternative way for a guest user to negotiate prices with a sales rep?1 / 1 points
+Guest buyers can access a quote via a unique direct link sent by a sales rep to the email provided in the original RFQ.
+
+Can a user personalize back-office menus for themselves?1 / 1 points
+Yes, but the Manage Menus capability must first be included into the user role configuration settings.
+
+Customer A is not assigned any customer tax code. Does it mean that all customer users who belong to Customer A are exempt from paying taxes when placing orders?1 / 1 points
+Yes, unless another tax code is set for the related customer group.
+
+Which statement about tasks is false?1 / 1 points
+You can edit a task status only if the task flow is enabled for your Oro application.
+
+Each product can have two types of pricing displayed in the storefront, Your Price and Listed Price. What does Your Price define?1 / 1 points
+Your price is a dynamic price on the PLP which changes based on the quantity input into the box and the prices available to the customer.
+
+What discounts can be applied to orders manually in the back-office?1 / 1 points
+Coupons and special discounts. Promotions apply automatically. 
+
+What is a content block?1 / 1 points
+Content Blocks are customizable sections that are used to display content that can be modified from the back-office. In Oro applications, you can adjust the existing content blocks or create your own.
+
+What is the recommendation for enabling the All Products page?1 / 1 points
+It is recommended to enable All Products page exclusively for small catalogs with no more than a few hundred products, otherwise, browser performance might be affected.
+
+What is an oro_customer_menu?1 / 1 points
+It is a storefront menu that defines what options are available in the Account section of the user menu.
+
+When you enable Guest Access at the organization level, which websites have it granted? 1 / 1 points
+All websites within the organization
+
+What is the outcome of setting up a mutually exclusive workflow?1 / 1 points
+The feature makes it possible for only one workflow to be active, or for an entity record to use only one workflow from the group at a time. 
+
+What types of back-office role permissions are available in OroCommerce? More than one answer is required:1 / 1 points
+System capabilities
+Entity-level permissions
+Field-level permissions
+Workflow permissions
+
+Contacts and customer users represent people but what is the difference between them? 1 / 1 points
+Contacts store information about the person, just like a customer user, and can be used to track communication as well as personal information. A customer user is related to a customer record, they can log into the storefront, and have a role assigned to it. A contact is an internal record used for traditional CRM functionality.
+
+Can you apply coupons to all promotions? 1 / 1 points
+You can apply coupons to those promotions that you specifically configured to be triggered by coupons, or coupons and conditions.
+
+Select the discount strategies offered by OroCommerce in the system configuration. More than one answer is required:1 / 1 points
+Combining all discounts
+Best value discounts
+
+What access levels will you select for an entity with ownership type Organization? 1 / 1 points
+None, Organization, Global
+
+OroCommerce supports consent management. To display the text of the consent to customers in the storefront, you need to create a consent landing page with the corresponding description and add it as a content variant to a specific node in a web catalog. When is this a requirement?1 / 1 points
+When adding mandatory consents. If a consent does not require any descriptive text, or if the consent is optional, you do not have to add it to the web catalog node as a landing page.
+
+ What is a navigation root?1 / 1 points
+It allows you to select any content node as a root node for the OroCommerce storefront menu.
+
+You have enabled two languages for the US website, English and Spanish. How would you provide Spanish translation to English-localized landing pages? 1 / 1 points
+Create another landing page with the same content translated to Spanish. Add this page as a content variant to a web catalog content node next to the English-specific landing page. Restrict the landing page to the Spanish localization to display the Spanish content when switching the language in the storefront.
+
+How to assign a custom price list to a guest user?1 / 1 points
+Assign the price list to the Non-Authenticated Visitors customer group. All anonymous customers that belong to the group will see the prices set for guest users unless another fallback option is configured for the price list.
+
+Can you add more than one unit of measurement to a product?1 / 1 points
+Yes, you can add one or multiple units to a single product.
+
+What can you achieve by applying restrictions to a web catalog?1 / 1 points
+By applying restrictions, you can define who you want to show this catalog to and where. If there are no restrictions specified for a particular web catalog, anyone can view its contents in the storefront from any location.
+
+Where can you manage a product’s quantity in inventory?1 / 1 points
+You can manage the quantities of products you have in stock both under Inventory > Manage Inventory and on the product view page via More Actions > Manage Inventory.
+
+Which statement about landing pages is correct?1 / 1 points
+Once the landing page is saved, you can preview it in the storefront without assigning it to the web catalog content node.
+
+What content variant types can be added to a web catalog? More than one answer is required:1 / 1 points
+Two landing pages to one web catalog node.
+A category from the master catalog.
+A product collection.
+
+What does the None access level mean?1 / 1 points
+User with this role cannot perform the selected action.
+
+Select all available access levels for backend roles.1 / 1 points
+None, User, Business Unit, Division, Organization, Global
+
+What are the ways of adding prices to products in OroCommerce?1 / 1 points
+You can import products in a .csv file, add product prices manually to each selected product on the product page, add them to products via the price list by clicking +Add Product Price, or generate prices dynamically.
+
+How to customize the back-office application_menu per each website individually?1 / 1 points
+You cannot update the back-office menus per website as the configuration is available on the global, organization, and user levels only.
+
+What are the steps for creating a configurable product?1 / 1 points
+First, you need to create product attributes, a product family, product variants, and then a configurable product.
+
+Is it possible to add multiple workflows to a single entity, keeping them all simultaneously active?1 / 1 points
+You can add an unlimited number of workflows to one entity and run them all in parallel unless mutually exclusive workflows are set up.
+
+Which statement regarding RFQs is incorrect?1 / 1 points
+RFQ functionality is available in Enterprise Edition only.
+
+Which level of the address granularity should be used for calculating the tax rate?1 / 1 points
+It depends on the address granularity settings that you configure in the system configuration. The settings determine at what level the tax should be calculated, zip code, region, or country.
+
+When is it not required to add a consent to the web catalog as a landing page?1 / 1 points
+If a consent does not require any descriptive text, or if it is optional.
+
+What happens when you make a product brand filterable?1 / 1 points
+It enables customers to filter products by brands in the storefront.
+
+What happens if you deactivate the running workflow?1 / 1 points
+All the data that refers to this workflow will be deleted and cannot be recovered by reactivating it.
+
+Your business requires tracing the lifecycle of all RFQs, marking them as processed, submitted, or the ones that require attention. Which of the following workflows would you enable to satisfy the request?1 / 1 points
+You need to activate both RFQ Management Flow and RFQ Submission Flow to view all the necessary statuses. 
+
+When do you need to provide third-party credentials to configure a shipping integration?1 / 1 points
+When configuring FedEx integration
+
+How do you localize consents?1 / 1 points
+Create separate landing pages for each target language and add all related landing pages to the content node. Then, set restrictions to limit the consent visibility to a certain localization when it is selected in the storefront. 
+
+What is the purpose of “mandatory consents” in OroCommerce?1 / 1 points
+To restrict buyers from proceeding to the checkout or creating RFQs unless they accept the consent. 
+
+You are selling taxable items from Florida which is a destination-based sales tax state to a customer from Virginia which is an origin-based state. The sales tax rate for Florida is 7%, while Virginia charges 5.3%. Which tax rate should the customer be charged at and why?1 / 1 points
+As Florida is your home state, you should collect sales tax based on the destination of the buyer, that is 5.3%.
+
+Which statement is incorrect regarding the order management?1 / 1 points
+A new order-related workflow can only be applied to the orders submitted after the workflow activation.
+
+What is a product family?1 / 1 points
+A product family is a collection of product attributes to allow for displaying relevant information, filtering, and sorting products of a similar type.
+
+Can a guest user send a request for quote for the products they are interested in?1 / 1 points
+Yes, guest users can request a quote for the desired products. Once the sales representative processes the request and creates a quote in the back-office, guest customers can access the quote via a unique direct link through the email. Guest RFQs must be enabled in the back-office for this.
+
+What is the recommendation for enabling the All Products page?1 / 1 points
+It is recommended to enable All Products page exclusively for small catalogs with no more than a few hundred products, otherwise, browser performance might be affected.
+
+You want to show a certain payment method only to customers with a billing address in the US and for orders over $1000. Which payment rule expression should you use?1 / 1 points
+subtotal.value > 1000 and subtotal.currency = 'USD' and billingAddress.countryIso2 = 'US'
+
+How would you configure a promotion for a specific customer group?1 / 1 points
+Set restrictions when creating or editing a promotion to make it available for that specific customer group.
